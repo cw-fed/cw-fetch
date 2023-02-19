@@ -1,0 +1,22 @@
+{
+  "name": "cw-fetch",
+  "version": "1.0.0",
+  "description": "整合h5, pc, app, 小程序端的fetch工具库",
+  "scripts": {
+    "test": "",
+    "build": "build:ts && build:rollup",
+    "build:ts": "tsc -c tsconfig.json",
+    "build:rollup": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cw-fed/cw-fetch.git"
+  },
+  "keywords": [],
+  "author": "stein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cw-fed/cw-fetch/issues"
+  },
+  "homepage": "https://github.com/cw-fed/cw-fetch#readme"
+}
