@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES2015",
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,22 +1,32 @@
 {
-  "name": "cw-fetch",
+  "name": "@cw/cw-fetch",
   "version": "1.0.0",
   "description": "整合h5, pc, app, 小程序端的fetch工具库",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "",
-    "build": "build:ts && build:rollup",
-    "build:ts": "tsc -c tsconfig.json",
-    "build:rollup": "rollup -c rollup.config.js"
+    "build": "tsc --build tsconfig.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cw-fed/cw-fetch.git"
   },
-  "keywords": [],
-  "author": "stein",
+  "keywords": [
+    "fetch",
+    "请求库"
+  ],
+  "author": "weishijiestein@outlook.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cw-fed/cw-fetch/issues"
   },
-  "homepage": "https://github.com/cw-fed/cw-fetch#readme"
+  "homepage": "https://github.com/cw-fed/cw-fetch#readme",
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "qs": "^6.11.1"
+  }
 }
