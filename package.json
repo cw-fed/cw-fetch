@@ -1,6 +1,6 @@
 {
   "name": "@cw/cw-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "整合h5, pc, app, 小程序端的fetch工具库",
   "files": [
     "dist"
