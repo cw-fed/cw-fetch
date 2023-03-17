@@ -6,7 +6,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc --build tsconfig.json"
+    "build": "tsc --build tsconfig.json",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish --any-branch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/cw-fed/cw-fetch#readme",
   "devDependencies": {
     "@types/qs": "^6.9.7",
+    "np": "^7.6.3",
     "typescript": "^4.9.5"
   },
   "dependencies": {
